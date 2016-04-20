@@ -15,12 +15,15 @@ public class Zoo {
     }
 
     public void rollCall() {
-        //TODO: have Performers list their stunts 
+        //TODO: have Performers list their stunts
         for (Animal a : animalList) {
             System.out.println(a);
             if (a instanceof Pet) {
                 System.out.println( ((Pet) a).getName());
             }
+            if (a instanceof Performer) {
+              System.out.println( ((Performer) a).stuntList());
+            }
         }
-    }    
+    }
 }
