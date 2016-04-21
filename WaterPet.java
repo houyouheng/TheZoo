@@ -21,6 +21,15 @@ public abstract class WaterPet extends Pet{
       return this.waterType;
   }
 
+  public String checkFilter(){
+    if(filterLastDays > 0){
+      return "Filters are clean!";
+    }else{
+      return "FILTERS NEED TO BE CLEANED LIKE NOW!";
+    }
+
+  }
+
   public String cleanFilter(){
     filterLastDays = 14;
     return "Filters are now cleaned!";

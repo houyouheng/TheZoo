@@ -1,8 +1,8 @@
 public abstract class Animal {
 
   private int age; //in days
-  
-  private String type; 
+
+  private String type;
 
   public Animal(String myType) {
     type = myType;

@@ -24,6 +24,10 @@ public class Zoo {
             if (a instanceof Performer) {
               System.out.println( ((Performer) a).stuntList());
             }
+            if (a instanceof WaterPet){
+              System.out.println(((WaterPet) a).getTypeOfWater());
+              System.out.println(((WaterPet) a).checkFilter());
+            }
         }
     }
 }
