@@ -9,9 +9,7 @@ public abstract class WaterPet extends Pet{
     filterLastDays = 14;
   }
 
-  public String eat(){
-    return "Eats other fish!";
-  }
+  public abstract String eat();
 
   public String getName(){
       return super.getName();

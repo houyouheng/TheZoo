@@ -1,11 +1,15 @@
 public abstract class Mom extends Animal{
 
-  public Mom(String myType){
+  private int momsNumber;
+
+  public Mom(String myType, int herNumber){
     super(myType);
+    momsNumber = herNumber;
   }
 
-  public String eat(){
-    return "I wonder what they eat hummmmmmm?";
+  public int getMomsNumber(){
+    return momsNumber;
   }
 
+  public abstract String eat();
 }

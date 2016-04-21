@@ -28,6 +28,9 @@ public class Zoo {
               System.out.println(((WaterPet) a).getTypeOfWater());
               System.out.println(((WaterPet) a).checkFilter());
             }
+            if (a instanceof Mom){
+              System.out.println(((ColbysMom) a).getMomsNumber());
+            }
         }
     }
 }

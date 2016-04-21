@@ -18,6 +18,11 @@ public class ZooTest {
     Dog myDog = new Dog("WolfWolf");
     myZoo.addToZoo(myDog);
 
+    ColbysMom mom = new ColbysMom("Mom", 50200);
+    myZoo.addToZoo(mom);
+
+    Fish myFish = new Fish("GoldFish", "My Water Buddy", "Fresh Water");
+    myZoo.addToZoo(myFish);
 
     myZoo.rollCall();
   }
